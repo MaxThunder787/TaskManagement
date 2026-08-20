@@ -4,6 +4,16 @@
 
 Build senior-level .NET projects from the supplied roadmap. Keep code short, practical, production-oriented, and concept-focused.
 
+## Project Summary & Phase Tracking
+
+- Read `docs/projectsummary.md` before starting any task to understand the current architecture, phase status, and open issues.
+- On **every phase completion**, update `docs/projectsummary.md`:
+  - Mark the completed phase as done and summarize what it delivered.
+  - **Remove all invalid/outdated details** (resolved issues, stale structure, superseded decisions) — the file must always reflect the current truth.
+  - Add the next phase under "Pending" and carry forward only still-open issues.
+- If a change invalidates anything in the summary mid-task, update it in the same change.
+- Keep the summary short and concise.
+
 ## Code Generation Rules
 
 Before every generated code block, add a short comment using exactly one of these labels:

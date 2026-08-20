@@ -5,19 +5,19 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Api", "src\TaskManagement.Api\TaskManagement.Api.csproj", "{7F4195ED-C1D9-4536-8BA7-86D99A280669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Api", "src\TaskManagement.Api\TaskManagement.Api.csproj", "{7F4195ED-C1D9-4536-8BA7-86D99A280669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Application", "src\TaskManagement.Application\TaskManagement.Application.csproj", "{3DEA7D2E-6038-4764-834B-B1B4342D77C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Application", "src\TaskManagement.Application\TaskManagement.Application.csproj", "{3DEA7D2E-6038-4764-834B-B1B4342D77C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Domain", "src\TaskManagement.Domain\TaskManagement.Domain.csproj", "{7F4AF6ED-E824-4CFF-BCBC-58EA000B08D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Domain", "src\TaskManagement.Domain\TaskManagement.Domain.csproj", "{7F4AF6ED-E824-4CFF-BCBC-58EA000B08D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Infrastructure", "src\TaskManagement.Infrastructure\TaskManagement.Infrastructure.csproj", "{5E89AC54-6D0C-43B2-9BCD-134F3CB9F8F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Infrastructure", "src\TaskManagement.Infrastructure\TaskManagement.Infrastructure.csproj", "{5E89AC54-6D0C-43B2-9BCD-134F3CB9F8F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.UnitTests", "tests\TaskManagement.UnitTests\TaskManagement.UnitTests.csproj", "{3053AEE0-CA35-42AC-982F-FE32FE424B70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.UnitTests", "tests\TaskManagement.UnitTests\TaskManagement.UnitTests.csproj", "{3053AEE0-CA35-42AC-982F-FE32FE424B70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.IntegrationTests", "tests\TaskManagement.IntegrationTests\TaskManagement.IntegrationTests.csproj", "{AF1D746E-5E3F-47FB-BD23-C075FAF64D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.IntegrationTests", "tests\TaskManagement.IntegrationTests\TaskManagement.IntegrationTests.csproj", "{AF1D746E-5E3F-47FB-BD23-C075FAF64D18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -112,5 +112,8 @@ Global
 		{5E89AC54-6D0C-43B2-9BCD-134F3CB9F8F0} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{3053AEE0-CA35-42AC-982F-FE32FE424B70} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{AF1D746E-5E3F-47FB-BD23-C075FAF64D18} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2372452E-373B-4481-BF53-5B6552F34989}
 	EndGlobalSection
 EndGlobal
